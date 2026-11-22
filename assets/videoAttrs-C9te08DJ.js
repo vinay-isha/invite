@@ -1,0 +1,1 @@
+var e={disablePictureInPicture:!0,controlsList:`nodownload nofullscreen noremoteplayback`,disableRemotePlayback:!0,"x5-playsinline":`true`,"webkit-playsinline":`true`,"x5-video-player-type":`h5`,"x5-video-player-fullscreen":`false`};export{e as t};

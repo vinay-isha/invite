@@ -1,0 +1,490 @@
+{
+  "capture_path": "C:\\Users\\user\\.gemini\\antigravity\\brain\\bb5fbc67-d999-4f37-98e1-1fc0bd2d2fe2\\.system_generated\\steps\\69\\output.txt",
+  "capture_sha256": "4119f2cf9ca92d302784cbd003cd7325f086a6071b34f601ca791387c4767385",
+  "capture_kind": "browser-scenario",
+  "source_evidence_id": "ev_2b84351eedb633e475450311dc75a9ba5f26908d50caa58c32a089e26aa94320",
+  "capture_completeness": {
+    "status": "incomplete",
+    "equality_eligible": false,
+    "missing_sections": [
+      "events"
+    ],
+    "truncated_sections": []
+  },
+  "output_directory": "D:\\Clone Website\\Second\\exported_scripts",
+  "analysis_input": {
+    "input_path": "D:\\Clone Website\\Second\\exported_scripts\\files",
+    "format": "directory"
+  },
+  "scripts": [
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-2",
+        "request_sequence": 4,
+        "response_sequence": 41,
+        "status": 200
+      },
+      "url": "https://www.googletagmanager.com/gtag/js?id=AW-837034460",
+      "content": {
+        "state": "unavailable",
+        "reason": "body-size-limit",
+        "message": "Playwright materialized the body before its 65536-byte retained-body budget was checked."
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-3",
+        "request_sequence": 5,
+        "response_sequence": 9,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/gtag-init.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/gtag-init.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "f15cfbe73f08e75135e9574db5dbeec724d2785e6369511322f0538992eeb601",
+        "bytes": 242,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-5",
+        "request_sequence": 12,
+        "response_sequence": 14,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/theme-init.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/theme-init.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "3fac2e1c7ecb25e3904ce02a10367ff4b1b27122165dde0a67df734bf4c0a0ca",
+        "bytes": 329,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-6",
+        "request_sequence": 17,
+        "response_sequence": 62,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/index-Dsnx8wPW.js",
+      "content": {
+        "state": "unavailable",
+        "reason": "body-size-limit",
+        "message": "Playwright materialized the body before its 65536-byte retained-body budget was checked."
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-7",
+        "request_sequence": 18,
+        "response_sequence": 32,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/jsx-runtime-CdArH33I.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/jsx-runtime-CdArH33I.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "6af91cab6749020bd8e6bc65373436d6c8c8095a0a60eed8557cf5c126e4d223",
+        "bytes": 8720,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-8",
+        "request_sequence": 19,
+        "response_sequence": 37,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/gestures-BfluCb-v.js",
+      "content": {
+        "state": "unavailable",
+        "reason": "body-size-limit",
+        "message": "Playwright materialized the body before its 65536-byte retained-body budget was checked."
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-9",
+        "request_sequence": 20,
+        "response_sequence": 45,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/layout-DUJqjjkC.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/layout-DUJqjjkC.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "6aa5e26e306ed113544e3190411151a6002c56b7034c9b2477f2f25ae7f6cc6c",
+        "bytes": 45473,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-13",
+        "request_sequence": 48,
+        "response_sequence": 95,
+        "status": 200
+      },
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/837034460/?random=1795326711057&cv=11&fst=1795326711057&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bh1v9112996786za208zd9112996786xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~119404696~120213116~120385423~120469145~120469153~121049589~121246026~121246034&u_w=1280&u_h=720&url=https%3A%2F%2Fwedinviteglobal.com%2Ftemplates%2Fmangalammoments%2Fv1%2Fpreview%3Fdraft%3D1&rcb=9&frm=0&tiba=WedInvite%20-%20Digital%20Wedding%20Invitation%20Platform&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1610471389.1795326711&uaa=x86&uab=64&uafvl=Not-A.Brand%3B99.0.0.0%7CGoogle%2520Chrome%3B157.0.8103.80%7CChromium%3B157.0.8103.80&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+      "content": {
+        "state": "exported",
+        "relative_path": "isolated/source-8-7b81e7ec21a58d40ffde657952a07e44e90d3e7863032cc476f0f83aa29aef84.js",
+        "layout": "isolated",
+        "layout_reason": "URL path is not an ordinary portable JavaScript module path.",
+        "sha256": "666eca2c7547fd4329ce91c64c0ec3584199f37efe3448e0d2f9309a0004c3cf",
+        "bytes": 8059,
+        "media_type": "text/javascript; charset=UTF-8",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-18",
+        "request_sequence": 53,
+        "response_sequence": 220,
+        "status": 200
+      },
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-XNP6SJGH6M&cx=c&gtm=4e6bh1",
+      "content": {
+        "state": "unavailable",
+        "reason": "body-size-limit",
+        "message": "Playwright materialized the body before its 65536-byte retained-body budget was checked."
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-24",
+        "request_sequence": 72,
+        "response_sequence": 130,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/v1-DqMLs4V3.js",
+      "content": {
+        "state": "unavailable",
+        "reason": "body-size-limit",
+        "message": "Playwright materialized the body before its 65536-byte retained-body budget was checked."
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-25",
+        "request_sequence": 73,
+        "response_sequence": 100,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/textFit-aC3ZDXQ-.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/textFit-aC3ZDXQ-.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "6963f8bbe011f425efbe63851e847d1f494844cc43ed571e3fd0d15c5d859b68",
+        "bytes": 1499,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-26",
+        "request_sequence": 74,
+        "response_sequence": 106,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/party-popper-CuPBKlVq.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/party-popper-CuPBKlVq.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "a22e78dd1a2666f24a4e395c33ca35561c222dbad454a4766c3e58ff86331517",
+        "bytes": 1692,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-27",
+        "request_sequence": 75,
+        "response_sequence": 109,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/calendar-days-DEZmq6u4.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/calendar-days-DEZmq6u4.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "0b0abbe63f43634a87e527771caf882be1e9179172f3f94a5e3efbb466268794",
+        "bytes": 483,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-28",
+        "request_sequence": 76,
+        "response_sequence": 115,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/volume-x-8SGV_G6X.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/volume-x-8SGV_G6X.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "8b14a6a986a66ef365817c36b037871e1e25e4cb17b50c56f1b5b03d14945fb9",
+        "bytes": 681,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-29",
+        "request_sequence": 77,
+        "response_sequence": 103,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/user-check-DyNwYMnY.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/user-check-DyNwYMnY.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "bcbed545c3b486312ad1a4e0bed0df7f2c0a58786bf7ec439527f70d43bce352",
+        "bytes": 1204,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-30",
+        "request_sequence": 78,
+        "response_sequence": 112,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/minus-D_Uxv_ZA.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/minus-D_Uxv_ZA.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "aeb3104cbce5f2b569246f8602c2c47fd44a61ed8446b638fca00de0a3b31c5b",
+        "bytes": 107,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-31",
+        "request_sequence": 79,
+        "response_sequence": 118,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/sun-CHsmKl25.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/sun-CHsmKl25.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "b568dbc0492bb17b9ca36189fe1ca40643602f472e2f128b6c1682f4a69a0cb9",
+        "bytes": 551,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-32",
+        "request_sequence": 80,
+        "response_sequence": 121,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/music-2-BY1dm-Ac.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/music-2-BY1dm-Ac.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "f265a6238f6e3b94e3682d49e592829b22428e771e9966ba026ee41825533fcb",
+        "bytes": 159,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-33",
+        "request_sequence": 81,
+        "response_sequence": 124,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/calendarLinks-B9am4CqP.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/calendarLinks-B9am4CqP.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "e7d277e0fe510767ebb41b35cfb96b62df620dfee48206579e43c36423596740",
+        "bytes": 1975,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-34",
+        "request_sequence": 82,
+        "response_sequence": 127,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/useBrandingSettings-6oMJ9PmE.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/useBrandingSettings-6oMJ9PmE.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "64c31e15bb99f07ac794c89ccf962b7f598641cfd1ee709bc6faf333acc5161e",
+        "bytes": 607,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-35",
+        "request_sequence": 83,
+        "response_sequence": 139,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/SectionGate-CVyW9sIQ.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/SectionGate-CVyW9sIQ.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "efd2523402753c261eb618a2cb7b759f93515c682aa783e71de41d6a6e7aa963",
+        "bytes": 339,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-36",
+        "request_sequence": 84,
+        "response_sequence": 142,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/CompatVideo-Bcg8dZA5.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/CompatVideo-Bcg8dZA5.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "433de5fbf1e5017affd8f091c751421feefe7dc0f2d6e93959c5e053b9a665e2",
+        "bytes": 2779,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    },
+    {
+      "source": {
+        "kind": "scenario-response",
+        "transaction_id": "request-37",
+        "request_sequence": 85,
+        "response_sequence": 145,
+        "status": 200
+      },
+      "url": "https://wedinviteglobal.com/assets/videoAttrs-C9te08DJ.js",
+      "content": {
+        "state": "exported",
+        "relative_path": "origins/5621245254a0a76751840244900a3bc0ef445087019fe6e4b45366362b89ff73/assets/videoAttrs-C9te08DJ.js",
+        "layout": "url-path",
+        "layout_reason": null,
+        "sha256": "b7fc91921493e5973a4204740f4923df988574a1bc67d4dcf1cfdf854be08fb2",
+        "bytes": 248,
+        "media_type": "application/x-javascript",
+        "redacted": false,
+        "representation": "playwright-response-body-bytes"
+      }
+    }
+  ],
+  "limitations": [
+    "Event sequence records provider receipt order; simultaneous browser causality is not inferred.",
+    "Network content is retained only when selected; Playwright response-body bytes are API results and are not guaranteed to match wire bytes.",
+    "Request bytes are limited to what Playwright exposes; not_exposed does not establish body absence or multipart file coverage.",
+    "Network content reads settle within 5 seconds each and the observer does not request bodies from unfinished responses.",
+    "Captured response-body bytes are the result of Playwright's Response.body() API. Playwright may satisfy that API with a credentialed follow-up load of the request URL when CDP has no body, so transaction and event links do not verify that retained bytes came from the original network transaction.",
+    "Playwright scenario events do not expose request initiator stacks; receipt order does not prove causality.",
+    "Storage values are hashed only after declared-secret redaction.",
+    "Some selected network content was unavailable; per-transaction content states retain the reason.",
+    "Some network requests had not completed when capture ended; later activity is unknown.",
+    "Only script bytes retained in this capture are exported. Sources are not refetched or executed, and a response or Debugger source does not prove execution.",
+    "Ordinary unambiguous URL paths preserve relative module layouts by origin, including case-distinct spellings. Query variants, exact path collisions, file/directory prefixes, inline sources, and unrepresentable paths are isolated. A case-distinct pair is isolated only when the destination filesystem cannot store both spellings; the record names that pair. Browser module relationships of isolated paths remain unknown.",
+    "Local JavaScript analysis does not implement browser import maps, root-relative URL resolution, remote URL loading, or browser runtime behavior. It may strip import queries and fragments; isolated variants are not canonical targets.",
+    "Source-map declarations are retained as metadata. No source maps or missing dependencies are fetched or reconstructed.",
+    "Scenario response bytes preserve the output of Playwright's Response.body() API; any source-body provenance caveat from the capture is retained in this manifest. Debugger sources are the exposed text encoded as UTF-8. Redacted bytes are exported exactly as retained, and may no longer parse as JavaScript."
+  ]
+}
