@@ -15,10 +15,20 @@
     // 0. GITHUB PAGES & STATIC HOSTING PATH RESOLVER
     // =========================================================================
     (function() {
-      // Determine base URL path (e.g., "/" or "/wedding-invite/")
+      // Determine base URL path and router basename
       var path = window.location.pathname;
-      var basePath = path.substring(0, path.lastIndexOf('/') + 1) || '/';
-      if (!basePath.endsWith('/')) basePath += '/';
+      if (path.endsWith('/index.html')) {
+        path = path.slice(0, -10);
+      }
+      var segs = path.split('/').filter(Boolean);
+      var routerBasename = '/';
+      if (segs.length === 1) {
+        routerBasename = '/' + segs[0];
+      } else if (window.location.hostname.endsWith('github.io') && segs.length > 0) {
+        routerBasename = '/' + segs[0];
+      }
+      window.ROUTER_BASENAME = routerBasename;
+      var basePath = (routerBasename !== '/' ? routerBasename : '') + '/';
       window.APP_BASE_PATH = basePath;
 
       // Intercept fetch for root-relative /assets/
@@ -170,9 +180,14 @@
     }
 
     // Ensure URL has draft=1 for compatibility with preview handlers
+    let curPath = window.location.pathname;
+    if (curPath.endsWith('/index.html')) {
+      curPath = curPath.slice(0, -10) || '/';
+      if (!curPath.endsWith('/')) curPath += '/';
+    }
     if (!window.location.search.includes('draft=1')) {
       const sep = window.location.search ? '&' : '?';
-      const newUrl = window.location.pathname + window.location.search + sep + 'draft=1' + window.location.hash;
+      const newUrl = curPath + window.location.search + sep + 'draft=1' + window.location.hash;
       window.history.replaceState(null, '', newUrl);
     }
   </script>
