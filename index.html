@@ -31,28 +31,26 @@
       var basePath = (routerBasename !== '/' ? routerBasename : '') + '/';
       window.APP_BASE_PATH = basePath;
 
-      // Intercept fetch for root-relative /assets/
+      // Intercept fetch for all root-relative paths (/api/, /assets/, etc.)
       var origFetch = window.fetch;
       window.fetch = function(input, init) {
         if (typeof input === 'string') {
-          if (input.startsWith('/assets/')) {
-            input = basePath + input.slice(1);
-          } else if (input.startsWith('/favicon.ico')) {
+          if (input.startsWith('/') && !input.startsWith('//') && !input.startsWith(basePath)) {
             input = basePath + input.slice(1);
           }
         }
         return origFetch.call(this, input, init);
       };
 
-      // Intercept DOM element src setters (Image, Audio, Video, Script)
-      function patchElementSrc(proto) {
+      // Intercept DOM element src & href setters (Image, Audio, Video, Script, Link)
+      function patchProp(proto, prop) {
         if (!proto) return;
-        var origDesc = Object.getOwnPropertyDescriptor(proto, 'src');
+        var origDesc = Object.getOwnPropertyDescriptor(proto, prop);
         if (origDesc && origDesc.set) {
-          Object.defineProperty(proto, 'src', {
+          Object.defineProperty(proto, prop, {
             get: origDesc.get,
             set: function(val) {
-              if (typeof val === 'string' && val.startsWith('/assets/')) {
+              if (typeof val === 'string' && val.startsWith('/') && !val.startsWith('//') && !val.startsWith(basePath)) {
                 val = basePath + val.slice(1);
               }
               return origDesc.set.call(this, val);
@@ -61,9 +59,10 @@
           });
         }
       }
-      patchElementSrc(HTMLImageElement.prototype);
-      patchElementSrc(HTMLMediaElement.prototype);
-      patchElementSrc(HTMLScriptElement.prototype);
+      patchProp(HTMLImageElement.prototype, 'src');
+      patchProp(HTMLMediaElement.prototype, 'src');
+      patchProp(HTMLScriptElement.prototype, 'src');
+      patchProp(HTMLLinkElement.prototype, 'href');
     })();
 
     // =========================================================================
