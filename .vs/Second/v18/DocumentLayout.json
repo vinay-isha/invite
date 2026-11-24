@@ -1,12 +1,156 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Clone Website\\Second\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Clone Website\\Second\\user_draft_mangalammoments.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:user_draft_mangalammoments.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Clone Website\\Second\\templates\\mangalammoments\\v1\\preview\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\mangalammoments\\v1\\preview\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Clone Website\\Second\\settled_user_page.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:settled_user_page.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Clone Website\\Second\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Clone Website\\Second\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Clone Website\\Second\\extracted_local_storage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:extracted_local_storage.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Clone Website\\Second\\404.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:404.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Clone Website\\Second\\assets\\v1-DqMLs4V3.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\v1-DqMLs4V3.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "user_draft_mangalammoments.json",
+              "DocumentMoniker": "D:\\Clone Website\\Second\\user_draft_mangalammoments.json",
+              "RelativeDocumentMoniker": "user_draft_mangalammoments.json",
+              "ToolTip": "D:\\Clone Website\\Second\\user_draft_mangalammoments.json",
+              "RelativeToolTip": "user_draft_mangalammoments.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAD6AgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-24T17:20:08.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Clone Website\\Second\\templates\\mangalammoments\\v1\\preview\\index.html",
+              "RelativeDocumentMoniker": "templates\\mangalammoments\\v1\\preview\\index.html",
+              "ToolTip": "D:\\Clone Website\\Second\\templates\\mangalammoments\\v1\\preview\\index.html",
+              "RelativeToolTip": "templates\\mangalammoments\\v1\\preview\\index.html",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAUwFAAAABbBAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-24T17:19:57.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "settled_user_page.html",
+              "DocumentMoniker": "D:\\Clone Website\\Second\\settled_user_page.html",
+              "RelativeDocumentMoniker": "settled_user_page.html",
+              "ToolTip": "D:\\Clone Website\\Second\\settled_user_page.html",
+              "RelativeToolTip": "settled_user_page.html",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAUwLYAAAB2vQEAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-24T17:19:50.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\Clone Website\\Second\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\Clone Website\\Second\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-24T17:19:32.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Clone Website\\Second\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "D:\\Clone Website\\Second\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAUwJIAAABJBAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-24T17:19:23.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "extracted_local_storage.json",
+              "DocumentMoniker": "D:\\Clone Website\\Second\\extracted_local_storage.json",
+              "RelativeDocumentMoniker": "extracted_local_storage.json",
+              "ToolTip": "D:\\Clone Website\\Second\\extracted_local_storage.json",
+              "RelativeToolTip": "extracted_local_storage.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABBAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-24T17:19:02.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "404.html",
+              "DocumentMoniker": "D:\\Clone Website\\Second\\404.html",
+              "RelativeDocumentMoniker": "404.html",
+              "ToolTip": "D:\\Clone Website\\Second\\404.html",
+              "RelativeToolTip": "404.html",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAYwJIAAABbBAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-24T17:18:35.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "v1-DqMLs4V3.js",
+              "DocumentMoniker": "D:\\Clone Website\\Second\\assets\\v1-DqMLs4V3.js",
+              "RelativeDocumentMoniker": "assets\\v1-DqMLs4V3.js",
+              "ToolTip": "D:\\Clone Website\\Second\\assets\\v1-DqMLs4V3.js",
+              "RelativeToolTip": "assets\\v1-DqMLs4V3.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABzeAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-24T16:45:02.85Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -23,7 +23,7 @@ A complete, self-contained clone of the **Mangalam Moments (v1)** wedding invita
    - **Date**: 16 February 2027 (Tuesday).
    - **Events**: Sangeet on 15 February 2027 (Monday) 6:30 PM at Kanha Banquet (beside Mothers Wax Museum).
    - **Venue**: Bika Banquet (VIP Road, Baguiati), 2, 4, VIP Rd, Raghunathpur, Baguiati, Kolkata, West Bengal 700059.
-   - **Family Blessings**: Agarwal Family (Late Savitri Devi & Late Ram Niwas Agarwal) & Pansari Family (Late Fuliya Devi Pansari & Late Jugal Kishore Ji Pansari).
+   - **Family Blessings**: Agarwal Family (Late Savitri Devi & Late Ram Niwas Ji Agarwal) & Pansari Family (Late Fuliya Devi Pansari & Late Jugal Kishore Ji Pansari).
    - Pre-seeded dual persistence in both LocalStorage and IndexedDB upon page load so the customizations persist permanently.
 
 4. **100% Exact Animations & Interactive Effects Preserved**
